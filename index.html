@@ -8,9 +8,10 @@
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
+  <link rel="stylesheet" href="style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(228, 50%, 72%); }
   </style>
 </head>
 <body>
@@ -18,13 +19,16 @@
     <img src="./images/logo.svg" alt="Logo" aria-hidden="true">
   </header>
   <main>
-    <img src="./images/illustration-mockups.svg" alt="illustration-mockups" aria-hidden="true">
-    <h1>Build The Community Your Fans Will Love</h1>
-    <p>
-      Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-      Create connections with your users as you engage in genuine discussion. 
-    </p>
-    <button>Register</button>
+    <img class="illustration" src="./images/illustration-mockups.svg" alt="illustration-mockups" aria-hidden="true">
+    <div class="left">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion. 
+      </p>
+      <button>Register</button>
+    </div>
+    <div class="close"></div>
   </main>
   <footer>
     <ul class="icons">
@@ -52,10 +56,6 @@
         </a>
       </li>
     </ul>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://www.linkedin.com/in/fernando-vald%C3%A9s-garc%C3%ADa-a46142221/">Fernando Valdés García</a>.
-    </p>
   </footer>
 </body>
 </html>
